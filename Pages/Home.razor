@@ -21,6 +21,8 @@
             {
                 <ExperienceCard Dados='exp' />
             }
+            <h2 class="mb-4">Projetos Pessoais</h2>
+            @foreach(var xp in Projetos) {<ExperienceCard Dados="xp" />}
         </div>
     </div>
 </div>
@@ -29,16 +31,37 @@
     private List<Experiencia> MinhasExperiencias = new()
     {
         new Experiencia {
-            Empresa = "Empresa de Software X",
-            Cargo = "Dev Júnior",
-            Inicio = "2024",
-            Descricao = "Atuação no desenvolvimento de interfaces com Blazor e APIs C#."
+            Empresa = "World-Tennis",
+            Cargo = "Vendedor",
+            Inicio = "2024",  Fim = "2025",
+            Descricao = "Atuei como vendedor ajudando e recomendando os clientes sobre os produtos mais indicados para eles"
         },
         new Experiencia {
-            Empresa = "Iniciativa Pessoal",
-            Cargo = "Freelancer",
-            Inicio = "2023", Fim = "2024",
-            Descricao = "Criação de sites institucionais e manutenção de sistemas."
+            Empresa = "Logoplaste LTDA.",
+            Cargo = "Auxiliar de produção",
+            Inicio = "2021", Fim = "2023",
+            Descricao = "Responsavel pelo final da linha de produção e também pela implementação de programas de melhoria continua"
         }
     };
+
+    private List<Experiencia> Projetos = new()
+    {
+        new Experiencia
+        {
+            Empresa = "Stacks: Python| postgreSQL| Docker",
+            Inicio = "2026",Fim = string.Empty,
+            Cargo = "Analise de dados do Banco Central",
+            Descricao = "Fazendo a ingestão da API do Banco Central e primeiro projeto utilizando Python, Docker e postgreSQL." +
+                        "\nO objetivo desse projeto é analisar como as empresas se comportam na tomada de crédito mediante a taxa Selic, e ao IPCA nacional"
+        },
+        new Experiencia
+        {
+            Empresa = "Stacks: Spring| Spring Security| Spring Data JPA| postgreSQL| Docker",
+            Inicio = "2026",Fim = string.Empty,
+            Cargo = "Site para calculo do valor da receita",
+            Descricao = "Site com sistema de login para o usuario cadastrar receitas e fazer o calculo facilitado do custo.\n" +
+                        "Futuramente terá o calculo da tabela nutricional tbm"
+        }
+    };
+
 }

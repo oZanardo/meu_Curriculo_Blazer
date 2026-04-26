@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "MeuCurriculo",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-Xk+gmpgxC2zcP5mYMNM/16FbeaPVnEWTVwfQvo8gDkU=",
+    "hash": "sha256-8+rfBRNFOEDfGdnYXsbw/GRnmTV6MjN7353IondwZoY=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ykrnppwhq2.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "MeuCurriculo.wasm",
-        "name": "MeuCurriculo.neczvfqz0r.wasm",
-        "integrity": "sha256-j6Q5Z7UV/0R74wf/RB2KXAebJV44qefgGcGvOvUmB0Y=",
+        "name": "MeuCurriculo.p3p6eqw8mx.wasm",
+        "integrity": "sha256-lTq+pYWKiwZAGImN31zfZJVbTAo/LEEXoS/Od51SvBI=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "MeuCurriculo.pdb",
-        "name": "MeuCurriculo.95qilroy8r.pdb",
-        "integrity": "sha256-3dU4ZJGhRLcmaov5cCvvQ690Lot8eCXufHwyDPbpzBY=",
+        "name": "MeuCurriculo.kong6kl70f.pdb",
+        "integrity": "sha256-5IE2+ZgH4rE6z1oyXpaqcObJGHCUO71//ctnyc0hEts=",
         "cache": "force-cache"
       }
     ],
